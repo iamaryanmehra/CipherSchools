@@ -1,0 +1,33 @@
+#Code 1
+
+Sub Color()
+
+1 Color Macro
+
+'This macro will change the color.
+
+'Keyboard Shortcut: Ctrl+Shift+A
+
+With Selection. Interior
+
+.Pattern = xlSolid
+
+.PatternColorIndex = xlAutomatic
+
+.Color 65535
+
+.TintAndShade = 0
+
+.PatternTintAndShade = 0
+
+End With
+
+ActiveCell.Offset(0, 2).Range("A1").Select
+
+End Sub
+
+
+#Code 2
+Sub ShowMessage()
+    MsgBox "Hello There, I am Aryan Mehra"
+Eng Sub
